@@ -1,26 +1,24 @@
-
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react'; 
-import Logo from '../assets/Logo.png'; 
-
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import Logo from "../assets/Logo.png";
 
 const navItems = [
-  { name: 'What We Do', href: '#what-we-do' },
-  { name: 'How It Works', href: '#how-it-works' },
-  { name: 'Pricing', href: '#pricing' },
-  { name: 'Case Studies', href: '#case-studies' },
-  { name: 'FAQ', href: '#faq' },
+  { name: "What We Do", href: "#what-we-do" },
+  { name: "How It Works", href: "#how-it-works" },
+  { name: "Pricing", href: "#pricing" },
+  { name: "Case Studies", href: "#case-studies" },
+  { name: "FAQ", href: "#faq" },
 ];
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white rounded-full  shadow-md">
+    <header className="sticky top-1 z-50 bg-white rounded-xl  shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between mr-9 items-center">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <img src={Logo} alt="Logo" className="h-10 w-auto object-contain"/>
+          <img src={Logo} alt="Logo" className="h-10 w-auto object-contain" />
           <span className="text-2xl font-bold text-gray-800">Adroit360</span>
         </div>
         {/* Desktop Navigation */}
@@ -44,7 +42,7 @@ const Header = () => {
             aria-label="Toggle Menu"
           >
             {/* The image shows a simple burger icon */}
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />} 
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
       </div>
