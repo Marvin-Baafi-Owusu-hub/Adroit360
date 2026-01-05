@@ -16,7 +16,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white rounded-full  shadow-md">
+    <header className="sticky top-0 z-50 bg-white rounded-xl  shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between mr-9 items-center">
         {/* Logo */}
         <div className="flex items-center gap-3">
