@@ -1,5 +1,5 @@
 // src/components/CaseStudies.jsx
-import React from "react";
+
 import { FiExternalLink } from "react-icons/fi";
 import ScrollReveal from "./ScrollReveal";
 
