@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-8 md:col-span-2 lg:col-span-1">
             {/* Quick Links */}
             <div>
-              <h4 className="text-lg font-semibold mb-5 text-white">Quick Links</h4>
+              <h4 className="text-lg font-semibold mb-5 ml-6 text-white">Quick Links</h4>
               <ul className="space-y-3">
                 {quickLinks.map((link) => (
                   <li key={link.name}>
@@ -76,7 +76,7 @@ const Footer = () => {
             
             {/* Legal/Resources */}
             <div>
-              <h4 className="text-lg font-semibold mb-5 text-white">Resources</h4>
+              <h4 className="text-lg font-semibold mb-5 ml-6 text-white">Resources</h4>
               <ul className="space-y-3">
                 {legalLinks.map((link) => (
                   <li key={link.name}>
@@ -94,7 +94,7 @@ const Footer = () => {
           </div>
 
           <div className="md:col-span-1"> 
-            <h4 className="text-lg font-semibold mb-5 ml-4 text-white">Contact Us</h4>
+            <h4 className="text-lg font-semibold mb-5 ml-6 text-white">Contact Us</h4>
             <ul className="space-y-3 text-gray-400 text-sm">
               <li className="flex items-start">
                 <Mail className="w-5 h-5 mr-3 text-blue-400 shrink-0 mt-1" />
