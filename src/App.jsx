@@ -19,9 +19,10 @@ const App = () => {
         <WhatWeDo />
         <HowItWorks />
         <PricingSection />
+        <PartnersSection />
         <CaseStudies />
         <FAQSection />
-        <PartnersSection />
+        
       </main>
       <Footer />
     </div>
