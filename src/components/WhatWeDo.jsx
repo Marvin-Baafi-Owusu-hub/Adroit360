@@ -61,7 +61,7 @@ const WhatWeDo = () => {
             advantages with our comprehensive service offerings.
           </p>
         </ScrollReveal>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ml-2 gap-8">
           {services.map((service, index) => (
             <ScrollReveal
               key={index}
