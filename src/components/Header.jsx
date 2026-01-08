@@ -14,11 +14,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-<<<<<<< HEAD
-    <header className="sticky top-1 z-50 bg-white rounded-xl  shadow-md">
-=======
     <header className="sticky top-0 z-50 bg-white rounded-xl  shadow-md">
->>>>>>> 63cbd132d6597a6ca4e68b78c9d47ccc778b175c
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between mr-9 items-center">
         {/* Logo */}
         <div className="flex items-center gap-3">
