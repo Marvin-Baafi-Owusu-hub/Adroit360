@@ -16,7 +16,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl px-4">
-       <ScrollReveal animation="slide-up">
+      <ScrollReveal animation="slide-up">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-4">
           Transforming Ideas into Software Solutions
         </h1>
