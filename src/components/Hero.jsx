@@ -2,7 +2,7 @@ import HeroBack from '../assets/Hro.avif';
 import ScrollReveal from './ScrollReveal';
 const Hero = () => {
   return (
-    <section className="relative h-[80vh] md:h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen md:h-[90vh] flex items-center justify-center overflow-hidden">
 
       {/* Background Image */}
       <div
